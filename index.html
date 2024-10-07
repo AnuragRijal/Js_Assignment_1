@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+    <!-- Normalize.css for consistent styling across browsers -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main CSS for custom styles -->
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Random Story Generator</h1>
+        <div class="buttons">
+            <!-- Buttons to select random words -->
+            <button id="subjectBtn">Choose Subject</button>
+            <button id="actionBtn">Choose Action</button>
+            <button id="descriptorBtn">Choose Descriptor</button>
+            <button id="objectBtn">Choose Object</button>
+            <button id="settingBtn">Choose Setting</button>
+            <!-- Button to speak the generated story -->
+            <button id="speakButton">Speak the Story</button>
+            <!-- Button to reset the generated story -->
+            <button id="resetButton">Reset Story</button>
+        </div>
+        <!-- Display the generated story -->
+        <p id="generatedStory">Your story will appear here.</p>
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="js/app.js"></script>
+</body>
+</html>
